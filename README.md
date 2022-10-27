@@ -28,6 +28,7 @@ We do this by padding the sequences,This is done to acheive the same length of i
 We build a build a model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, Time Distributed Dense Layers and fit the model
 
 ## PROGRAM
+```
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -139,6 +140,7 @@ print("{:15}{:5}\t {}\n".format("Word", "True", "Pred"))
 print("-" *30)
 for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
+```
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot

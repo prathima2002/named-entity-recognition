@@ -143,7 +143,7 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ### Training Loss, Validation Loss Vs Iteration Plot
 
 ![image](https://github.com/prathima2002/named-entity-recognition/blob/259168b886984560861761f999cc319d2fdcf1c9/WhatsApp%20Image%202022-10-27%20at%2017.56.12.jpeg)
-
+![image](https://github.com/prathima2002/named-entity-recognition/blob/58ce1d38b702a1110f415e06b8e48456d7543825/WhatsApp%20Image%202022-10-27%20at%2017.56.59.jpeg)
 ### Sample Text Prediction
 ![image]()
 
